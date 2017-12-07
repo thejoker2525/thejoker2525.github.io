@@ -9,6 +9,9 @@ h1, h2, h3, h4{
   font-weight: 600;
 }
 
+#myRestaurant {
+  text-align: center;
+}
 
 /* END BODY */
 /* START NAVBAR */
@@ -77,6 +80,16 @@ h1, h2, h3, h4{
 }
 /* END CAROUSEL SLIDER */
 /* START EVERYTHING PICTURE RELAYED */
+a:link .fa, a:visited .fa   {
+    color: white;
+    text-decoration: none;
+}
+.fa:hover, .fa:focus {
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
 .fa{
   padding: 12px;
   color: white;
@@ -113,8 +126,11 @@ h1, h2, h3, h4{
 }
 
 .img-responsive {
-  padding: 5%
+  padding: 5%;
+  width: 200%;
+  height: auto;
 }
+
 
 /* END EVERYTHING PICTURE RELAYED */
 /* START FOOTER */
